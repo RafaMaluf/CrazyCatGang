@@ -1,0 +1,513 @@
+/* GERAIS */
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #ffcb04;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.nada{
+    margin-right: 2vw;
+    width: 10vw;
+}
+
+.logo img{
+    margin-left: 2vw;
+    margin-top: 1vw;
+    width: 10vw;
+    height: auto;
+}
+
+.container-principal{
+    margin-top: 1vw;
+    background-color: #ffffff;
+    width: 60vw;
+    height: 90vh;
+    min-height: fit-content;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.soscats{
+    width: 10vw;
+}
+
+.soscats img{
+    margin-right: 2vw;
+    margin-top: 1vw;
+    width: 10vw;
+    height: auto;
+}
+/* FIM GERAIS */
+
+/* RAFA */
+
+/* LOGIN */
+.titulo-login{
+    width: 100%;
+    text-align: center;
+    margin-top: 3vw;
+    font-size: 24px;
+}
+
+.textos-login{
+    width: 80%;
+    text-align: center;
+}
+
+.textos-login p{
+    font-size: 14px;
+    color: black;
+}
+
+.textos-login p a{
+    font-size: 14px;
+    color: #3b382f;
+    transition: 0.3s;
+}
+
+.textos-login p a:hover{
+    font-size: 16px;
+}
+
+#id-formulario-login{
+    width: 24vw;
+    text-align: center;
+}
+
+#id-formulario-login input{
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    margin: 3px;
+    width: 26vw;
+    height: 5vh;
+}
+
+#id-formulario-login button{
+    margin-top: 2vw;
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    width: 10vw;
+    height: 6vh;
+    background-color: #ffcb04;
+    transition: 0.3s;
+}
+
+#id-formulario-login button:hover{
+    font-weight: 600;
+    font-size: 14;
+    border: 3px solid rgba(0, 0, 0, 0.666);
+    transform: scale(1.08);
+}
+
+/* LOGIN-ADM */
+
+.textos-login-adm{
+    position: absolute;
+    bottom: 5vw;
+    width: 80%;
+    text-align: center;
+}
+
+.textos-login-adm p{
+    font-size: 14px;
+    color: black;
+}
+
+.textos-login-adm p a{
+    font-size: 14px;
+    color: #3b382f;
+    transition: 0.3s;
+}
+
+.textos-login-adm p a:hover{
+    font-size: 16px;
+}
+
+#id-formulario-login-adm{
+    width: 24vw;
+    text-align: center;
+}
+
+#id-formulario-login-adm input{
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    margin: 3px;
+    width: 26vw;
+    height: 5vh;
+}
+
+#id-formulario-login-adm button{
+    margin-top: 2vw;
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    width: 10vw;
+    height: 6vh;
+    background-color: #ffcb04;
+    transition: 0.3s;
+}
+
+#id-formulario-login-adm button:hover{
+    font-weight: 600;
+    font-size: 14;
+    border: 3px solid rgba(0, 0, 0, 0.666);
+    transform: scale(1.08);
+}
+
+/* CADASTRO */
+#id-formulario-cadastro{
+    width: 24vw;
+    text-align: left;
+    justify-content: left;
+}
+
+#id-formulario-cadastro input{
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    margin: 3px;
+    width: 26vw;
+    height: 5vh;
+}
+
+#id-formulario-cadastro button{
+    margin-top: 2vw;
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    width: 10vw;
+    height: 6vh;
+    background-color: #ffcb04;
+    transition: 0.3s;
+}
+
+#id-formulario-cadastro button:hover{
+    font-weight: 600;
+    font-size: 14;
+    border: 3px solid rgba(0, 0, 0, 0.666);
+    transform: scale(1.08);
+}
+
+/* FIM RAFA */
+
+/* MATHEUS */
+
+.nome_clinica{
+    align-items: center;
+    justify-content: first baseline;
+    color: black;
+    
+}
+
+.card_tudo{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 300px;
+    border: solid #ffcb04 5px;
+    border-radius: 15px;
+    
+}
+
+.foto_clinica img{
+    display: flex;
+    width: 270px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card_direita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    width: 100%;
+}
+
+.card_esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    width: 100%;
+}
+
+.card_informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 240px;
+    width: 290px;
+    padding-bottom: 7px;
+}
+
+.endereco{
+    height: 20%px;
+    width: 100%;
+    align-items: center;
+    justify-content: first baseline;
+    margin-left: 5px;
+}
+
+.telefone{
+    height: 20%;
+    width: 100%;
+    align-items: center;
+    justify-content: first baseline;
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+
+.horario{
+    height: 20%;
+    width: 100%;
+    align-items: center;
+    justify-content: first baseline;
+    margin-left: 5px;
+    margin-top: 15px;
+    
+}
+
+.card_icons{
+    margin-top: 9vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+   
+}
+
+.card_icons img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.card_estatisticas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-size: larger;
+}
+
+.card_estatisticas p{
+    width: 40px;
+    height: 40px;
+    text-align: center; 
+}
+
+#form-estatisticas{
+    margin-left: 11.5vw;
+    width: 100%;
+}
+
+#form-estatisticas input{
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 3px;
+    margin: 3px;
+    margin-left: 20px ;
+    width: 10vw;
+}
+
+#form-estatisticas button{
+    margin-left: 40px;
+    margin-top: 2vw;
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    width: 6vw;
+    height: 6vh;
+    background-color: #ffcb04;
+    transition: 0.3s;
+}
+
+#form-estatisticas button:hover{
+    font-weight: 600;
+    font-size: 14;
+    border: 3px solid rgba(0, 0, 0, 0.666);
+    transform: scale(1.08);
+}
+
+/* FIM MATHEUS */
+
+/* HENRY*/
+
+.clinica-user-perto{
+    font-weight: 600;
+}
+
+.clinica-user-titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 24px;
+}
+
+.clinica-user-nomes-e-mapas{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.clinica-user-nomes-e-mapas p{
+    font-size: 20px;
+    color: #3b382f;
+}
+
+.clinica-user-nomes-e-mapas p a{
+    font-size: 20px;
+    color: #3b382f;
+    transition: 0.3s;
+}
+
+.clinica-user-nomes-e-mapas p a:hover{
+    font-size: 22px;
+}
+
+.clinica-user-nomes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.clinica-user-mapas img {
+    margin-top: 30px;
+    display: flex;
+    margin-left: auto;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 15px;
+}
+
+.clinicas-parceiras{
+    margin-top: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lista-clinicas li {
+    font-size: 16px; 
+    line-height: 1.6;
+}
+
+#lista-clinicas li::marker {
+    color: #ffcb04;
+}
+
+.clinica-adm-botoes{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.clinica-adm-add, .clinica-adm-remover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 50%;
+}
+
+.clinica-adm-add input, .clinica-adm-remover input{
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    margin: 3px;
+    width: 26vw;
+    height: 5vh;
+}
+
+.clinica-adm-add button, .clinica-adm-remover button{
+    margin-top: 2vw;
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    width: 10vw;
+    height: 6vh;
+    background-color: #ffcb04;
+    transition: 0.3s;
+}
+
+.clinica-adm-add button:hover, .clinica-adm-remover button:hover{
+    font-weight: 600;
+    font-size: 14;
+    border: 3px solid rgba(0, 0, 0, 0.666);
+    transform: scale(1.08);
+}
+
+#lista-clinicas a {
+    text-decoration: none; 
+    color: black; 
+
+}
+
+#lista-clinicas a:hover {
+    cursor: pointer; 
+}
+
+/* FIM HENRY */
+
+
+/* KAU*/
+
+#id-formulario-login textarea{
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+    margin: 3px;
+    width: 26vw;
+    height: 13vh;
+    resize: none;
+}
+
+
+.denuncia-item {
+    border: 3px solid #3b382f;
+    border-radius: 15px; 
+    margin: 10px 2px;
+}
+
+
+#denuncia-adm{
+    width: 100%;
+}
+
+#denuncia-adm h3{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#denuncia-adm h4{
+    margin-left: 10px;
+}
+
+#denuncia-adm p{
+    margin-left: 10px;
+}
+
+#denuncia-adm h5{
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+/* FIM KAU */

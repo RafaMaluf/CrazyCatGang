@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Clinica_Adm</title>
+    <!-- fonte google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../extras/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="../js/clinica.js" ></script> 
+</head>
+<body>
+    <div class="logo">
+        <a href="clinica_adm.html"><img src="../extras/images.png" alt="Logo Crazy Cat Gang"></a>
+    </div><!--logo-->
+    <div class="container-principal">
+        <div class="clinica-user-perto">
+
+            <div class="clinica-user-titulo">
+                <h2>Adicione ou remova clinicas: </h2>
+            </div><!--clinica-user-titulo-->
+
+            <div class="clinica-adm-botoes">
+                <div class="clinica-adm-add">
+                    <label for="nome-clinica">Nome da Clínica:</label>
+                    <input type="text" id="nome-clinica" placeholder="Nome da Clínica" required><br>
+        
+                    <label for="endereco-clinica">Endereço:</label>
+                    <input type="text" id="endereco-clinica" placeholder="Endereço" required><br>
+        
+                    <label for="telefone-clinica">Telefone:</label>
+                    <input type="text" id="telefone-clinica" placeholder="Telefone" required><br>
+        
+                    <label for="horario-clinica">Horário de Atendimento:</label>
+                    <input type="text" id="horario-clinica" placeholder="Horário de Atendimento" required><br>
+                    <button type="button" onclick="adicionarClinica()">ADICIONAR</button>
+                </div>
+            
+                <div class="clinica-adm-remover">
+                    <label for="nome-remover">Nome da Clínica:</label>
+                    <input type="text" id="nome-remover" placeholder="Nome da Clínica" required><br>
+
+                    <label for="endereco-remover">Endereço:</label>
+                    <input type="text" id="endereco-remover" placeholder="Endereço" required><br>
+                    <button type="button" onclick="removerClinica()">REMOVER</button>
+                </div>
+            </div>
+            
+
+            <div class="clinicas-parceiras">
+                <h3 onclick="MostraEsconde()" style="cursor: pointer;">
+                    Veja todas as nossas clinicas parceiras <i id="seta" class="fas fa-chevron-down"></i>
+                </h3>
+                <ul id="lista-clinicas" style="display: none;">
+                    <?php include '../php/listar_clinicas.php'; ?>
+                </ul>
+            </div>
+
+        </div><!--clinica-user-perto-->
+    </div><!--container-principal-->
+    <div class="nada">
+        <div class="soscats">
+            <a href="denuncia_adm.html"><img src="../extras/soscats.png" alt="Sos cats"></a>
+        </div><!--logo-->
+    </div><!--nada-->
+    
+</body>
+</html>

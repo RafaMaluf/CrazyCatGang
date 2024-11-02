@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Denuncia</title>
+    <!-- fonte google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../extras/favicon.ico" type="image/x-icon">
+    <script defer src="../js/denuncia.js"></script>
+</head>
+<body>
+    <div class="logo">
+        <a href="clinica_user.html"><img src="../extras/images.png" alt="Logo Crazy Cat Gang"></a>
+    </div><!--logo-->
+
+    <div class="container-principal">
+        <div class="titulo-login">
+            <h2>Faça sua denúncia aqui!</h2>
+        </div><!--titulo-login-->
+
+        <form id="id-formulario-login"> 
+            <label for="cpf">CPF:  </label>
+            <input type="text" id="cpf" name="cpf" placeholder="CPF" required> <br><br>
+            
+            <label for="horario">Horario: </label>
+            <input type="text" id="horario" name="horario" placeholder="Horario" required> <br><br>
+        
+            <label for="local">Local: </label>
+            <input type="text" id="local" name="local" placeholder="Local" required> <br><br>
+        
+            <label for="descricao">Descrição: </label>
+            <textarea id="descricao" name="descricao" placeholder="Descrição" class="desc" required></textarea> <br><br>
+            
+            <button type="button" onclick="registrarDenuncia()">Postar</button>
+        </form>
+        
+        
+    </div><!--container-principal-->
+    <div class="nada">
+        <div class="soscats">
+            <a href="denuncia_user.html"><img src="../extras/soscats.png" alt="Sos cats"></a>
+        </div><!--logo-->
+    </div><!--nada-->
+    
+</body>
+</html>
