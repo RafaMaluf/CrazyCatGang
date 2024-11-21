@@ -1,11 +1,9 @@
-Tem algumas coisas que tem que alterar no seu pc ai para funcionar.
+Projeto Web para a ONG Crazy Cat Gang
 
-Primeiro crie o banco de dados, só pegar o arquivo sql e rodar ele no workbench.
-Depois disso, altere o "config.php" para os seus dados:
-$servername = "localhost aqui"; 
-$username = "aqui coloca seu usuario";
-$password = "aqui coloca sua senha";
-$dbname = "aqui coloca o nome do banco que criou "linoccg"";
-$port = 3306; (a porta padrao é 3306, se vc nao mexeu deixa assim) 
+Sistema full-stack usando HTML, CSS, JavaScript, PHP E MySQL
+para produzir um sistema para a gestão de gatos alocados em clinicas.
 
-A principio é isso, dai cria um usuario e vai testando.
+Sistema robusto com paineis de administradores para poderem atualizar as
+paginas dinamicamente.
+
+Feito para a matéria "Desenvolvimento WEB"
