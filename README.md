@@ -1,6 +1,6 @@
 Projeto Web para a ONG Crazy Cat Gang
 
-Sistema full-stack usando HTML, CSS, JavaScript, PHP E MySQL
+Sistema full-stack usando HTML, CSS, JavaScript, PHP e MySQL
 para produzir um sistema para a gestão de gatos alocados em clinicas.
 
 Sistema robusto com paineis de administradores para poderem atualizar as
